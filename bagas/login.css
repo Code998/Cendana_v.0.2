@@ -1,0 +1,65 @@
+@font-face{
+	font-family: "Kaushan";
+	src : url("font/Kaushan/KaushanScript-Regular.ttf") format("truetype");
+}
+
+html,
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Kaushan";
+}
+
+body{
+	background-image: url("img/felipe-santana-2649-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.wrapper{
+	position: relative;
+}
+
+#contain{
+	position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 500px;
+	font-family: "Kaushan";
+	font-size: 25px;
+	color: white;
+}
+
+#form{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #eee;
+	width: 600px;
+	height: 638px;
+}
+
+form{
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 150px;
+}
+
+input{
+	margin-bottom: 30px;
+	height: 40px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+input[type="text"],[type="password"]{
+	border: 0px;
+	border-bottom: 2px solid black;
+	background-color: inherit;
+}
+
+input[type="submit"]{
+	border: 0px;
+	background-color: black;
+	color: white;
+}

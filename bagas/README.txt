@@ -1,0 +1,1 @@
+Please open index first or the font will get a bug.
